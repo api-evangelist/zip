@@ -1,0 +1,191 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "zip": "https://zip.com/vocab/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "ProcurementPlatform": "zip:ProcurementPlatform",
+    "IntakeRequest": "zip:IntakeRequest",
+    "ApprovalWorkflow": "zip:ApprovalWorkflow",
+    "VendorOnboarding": "zip:VendorOnboarding",
+    "ContractManagement": "zip:ContractManagement",
+    "SpendVisibility": "zip:SpendVisibility",
+    "PurchaseRequest": "zip:PurchaseRequest",
+    "Superagent": "zip:Superagent",
+    "InvoiceCodingAgent": "zip:InvoiceCodingAgent",
+
+    "id": "@id",
+    "type": "@type",
+
+    "name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "description": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "provider": {
+      "@id": "schema:provider",
+      "@type": "@id"
+    },
+    "status": {
+      "@id": "zip:status",
+      "@type": "xsd:string"
+    },
+    "requestType": {
+      "@id": "zip:requestType",
+      "@type": "xsd:string"
+    },
+    "submittedBy": {
+      "@id": "zip:submittedBy",
+      "@type": "xsd:string"
+    },
+    "submittedAt": {
+      "@id": "zip:submittedAt",
+      "@type": "xsd:dateTime"
+    },
+    "approvalStage": {
+      "@id": "zip:approvalStage",
+      "@type": "xsd:string"
+    },
+    "approvers": {
+      "@id": "zip:approvers",
+      "@container": "@list"
+    },
+    "vendorName": {
+      "@id": "zip:vendorName",
+      "@type": "xsd:string"
+    },
+    "vendorStatus": {
+      "@id": "zip:vendorStatus",
+      "@type": "xsd:string"
+    },
+    "contractValue": {
+      "@id": "zip:contractValue",
+      "@type": "xsd:decimal"
+    },
+    "contractCurrency": {
+      "@id": "zip:contractCurrency",
+      "@type": "xsd:string"
+    },
+    "contractStartDate": {
+      "@id": "zip:contractStartDate",
+      "@type": "xsd:date"
+    },
+    "contractEndDate": {
+      "@id": "zip:contractEndDate",
+      "@type": "xsd:date"
+    },
+    "spendCategory": {
+      "@id": "zip:spendCategory",
+      "@type": "xsd:string"
+    },
+    "spendAmount": {
+      "@id": "zip:spendAmount",
+      "@type": "xsd:decimal"
+    },
+    "budgetOwner": {
+      "@id": "zip:budgetOwner",
+      "@type": "xsd:string"
+    },
+    "costCenter": {
+      "@id": "zip:costCenter",
+      "@type": "xsd:string"
+    },
+    "glCode": {
+      "@id": "zip:glCode",
+      "@type": "xsd:string"
+    },
+    "erpSystem": {
+      "@id": "zip:erpSystem",
+      "@type": "xsd:string"
+    },
+    "webhookEvent": {
+      "@id": "zip:webhookEvent",
+      "@type": "xsd:string"
+    },
+    "sandboxEnvironment": {
+      "@id": "zip:sandboxEnvironment",
+      "@type": "xsd:boolean"
+    },
+    "apiKey": {
+      "@id": "zip:apiKey",
+      "@type": "xsd:string"
+    },
+    "baseUrl": {
+      "@id": "zip:baseUrl",
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://zip.com",
+      "@type": ["schema:Organization", "ProcurementPlatform"],
+      "name": "Zip",
+      "description": "AI-powered procurement orchestration platform providing a single front door for all corporate purchase requests with configurable approval chains and ERP integrations.",
+      "url": "https://zip.com",
+      "schema:sameAs": [
+        "https://github.com/ZipHQ",
+        "https://www.linkedin.com/company/theziphq/",
+        "https://x.com/theziphq"
+      ]
+    },
+    {
+      "@id": "https://api.ziphq.com",
+      "@type": "schema:WebAPI",
+      "name": "Zip Procurement API",
+      "description": "REST API for managing the full intake-to-pay procurement lifecycle including requests, approvals, vendor onboarding, contracts, and spend visibility.",
+      "url": "https://docs.ziphq.com",
+      "provider": "https://zip.com",
+      "schema:documentation": "https://docs.ziphq.com"
+    },
+    {
+      "@id": "zip:IntakeRequest",
+      "@type": "schema:DefinedTerm",
+      "name": "Intake Request",
+      "description": "A procurement intake request submitted by an employee for a new purchase, software subscription, vendor relationship, or other spend requiring approval."
+    },
+    {
+      "@id": "zip:ApprovalWorkflow",
+      "@type": "schema:DefinedTerm",
+      "name": "Approval Workflow",
+      "description": "A configurable multi-stage approval routing chain that routes procurement requests through the appropriate stakeholders, finance, legal, and executive approvers."
+    },
+    {
+      "@id": "zip:VendorOnboarding",
+      "@type": "schema:DefinedTerm",
+      "name": "Vendor Onboarding",
+      "description": "The process of onboarding new suppliers and vendors including compliance checks, tax documentation collection, and ERP system registration."
+    },
+    {
+      "@id": "zip:ContractManagement",
+      "@type": "schema:DefinedTerm",
+      "name": "Contract Management",
+      "description": "Lifecycle management of vendor contracts including creation, negotiation, execution, renewal tracking, and AI-assisted redlining and clause comparison."
+    },
+    {
+      "@id": "zip:SpendVisibility",
+      "@type": "schema:DefinedTerm",
+      "name": "Spend Visibility",
+      "description": "Real-time visibility into corporate spend across all categories, cost centers, and vendors with reporting and analytics capabilities."
+    },
+    {
+      "@id": "zip:Superagent",
+      "@type": "schema:DefinedTerm",
+      "name": "Zip Superagent",
+      "description": "Role-based AI agents designed to autonomously handle specific procurement workflows—such as invoice coding, vendor communication, or contract review—with full governance, audit trails, and policy guardrails."
+    },
+    {
+      "@id": "zip:InvoiceCodingAgent",
+      "@type": "schema:DefinedTerm",
+      "name": "AI Invoice Coding Agent",
+      "description": "A multi-agent AI system that automates accounts payable GL coding by leveraging full purchasing context including purchase orders, vendor records, and subsidiary mappings to achieve accurate first-pass coding."
+    }
+  ]
+}

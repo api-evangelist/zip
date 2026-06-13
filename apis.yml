@@ -75,6 +75,10 @@ common:
     url: rate-limits/zip-rate-limits.yml
   - type: FinOps
     url: finops/zip-finops.yml
+  - type: BlogPosts
+    url: blogs/blogs.json
+  - type: JSONLDContext
+    url: json-ld/zip-context.jsonld
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
