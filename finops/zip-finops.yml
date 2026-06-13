@@ -1,0 +1,91 @@
+specificationVersion: '1.0'
+id: zip-finops
+name: Zip FinOps
+description: >-
+  FinOps Framework FOCUS-aligned cost and usage profile for the Zip procurement
+  orchestration platform. Zip is an enterprise SaaS product sold under custom
+  negotiated contracts with modular pricing. There is no metered consumption
+  billing or pay-per-API-call model; costs are driven by user seats, selected
+  modules, contract term, and implementation services.
+url: https://zip.com/contact
+provider:
+  name: Zip
+  url: https://zip.com
+  category: Procurement Orchestration / Enterprise SaaS
+billingModel:
+  type: Subscription
+  description: >-
+    Annual subscription billed based on active users, selected capability
+    modules, and organizational spend under management. Pricing is negotiated
+    directly with Zip sales rather than through a self-service portal.
+  cadence: Annual
+  currency: USD
+costDrivers:
+  - name: Active Users
+    description: >-
+      Per-seat pricing for requesters, approvers, procurement staff, and
+      finance users with access to the platform.
+    unit: Seat / Month
+    notes: Volume discounts available for larger deployments
+  - name: Capability Modules
+    description: >-
+      Modular add-ons including Contract Lifecycle Management (CLM), Vendor
+      Management, Advanced Analytics, and AP Automation are priced
+      individually or as bundles.
+    unit: Module
+    notes: Bundling multiple modules typically yields better overall pricing
+  - name: Platform Base Fee
+    description: >-
+      Base subscription fee scaled by company size or total addressable
+      procurement spend volume.
+    unit: Organization
+  - name: Implementation Services
+    description: >-
+      One-time professional services fees covering setup, configuration,
+      training, and data migration.
+    unit: Engagement
+    notes: Complexity and integration scope drive implementation costs
+  - name: Support Tier
+    description: >-
+      Premium support and dedicated customer success packages are available
+      as paid add-ons above standard support.
+    unit: Tier
+optimization:
+  - strategy: Multi-Year Commitment
+    description: >-
+      Committing to a 2- or 3-year contract yields lower per-seat rates and
+      better overall pricing compared to annual renewals.
+  - strategy: Bundle Modules
+    description: >-
+      Purchasing multiple modules (CLM, Vendor Management, Analytics) as a
+      bundle reduces per-module cost versus buying each independently.
+  - strategy: Seat Right-Sizing
+    description: >-
+      Regularly audit active user counts and remove inactive users to avoid
+      paying for unused seats at renewal.
+  - strategy: Competitive Evaluation
+    description: >-
+      Running a competitive evaluation against alternatives (Coupa, Procurify,
+      Beeline) provides negotiation leverage, especially at quarter-end or
+      year-end close periods.
+  - strategy: Consolidate Integrations
+    description: >-
+      Leverage Zip's native App Studio integration platform to reduce
+      third-party integration tool costs rather than maintaining separate
+      middleware or iPaaS subscriptions.
+benchmarks:
+  averageAnnualContractValue: 88856
+  medianRangeLow: 35610
+  medianRangeHigh: 214750
+  averageSavingsNegotiated: 18.53
+  currency: USD
+  source: Vendr marketplace anonymized purchase data (71 deals)
+focus:
+  billedCost: true
+  effectiveCost: true
+  listUnitPrice: false
+  contractedUnitPrice: true
+  notes: >-
+    Zip does not publish list unit prices. All pricing is derived from
+    enterprise contract negotiations. FOCUS cost columns apply at the
+    contracted subscription level, not per-API-call or per-resource.

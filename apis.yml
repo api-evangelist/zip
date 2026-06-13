@@ -1,0 +1,80 @@
+aid: zip
+name: Zip
+description: >-
+  Zip is an AI-powered procurement orchestration platform that provides a REST
+  API for managing the full intake-to-pay lifecycle. The API enables developers
+  to build custom integrations that extract, create, and update procurement
+  data including intake requests, vendor onboarding, approval workflows, and
+  contract management. Authentication is handled via API keys passed as Basic
+  Auth credentials, with separate sandbox and production environments available.
+  Zip's platform serves enterprise customers by creating a single front door for
+  all corporate purchase requests and routing them through configurable approval
+  chains before connecting to ERPs and financial systems. The API supports
+  webhook callbacks for async event notifications when procurement workflows
+  complete, enabling deep integration with existing enterprise toolchains.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/zip/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Procurement
+  - Spend Management
+  - Intake to Pay
+  - Approval Workflows
+  - Vendor Management
+  - Contract Management
+  - Enterprise Software
+  - FinTech
+apis:
+  - aid: zip:zip-procurement-api
+    name: Zip Procurement API
+    description: >-
+      The Zip Procurement API is a REST-based interface for automating and
+      integrating enterprise procurement workflows. It provides endpoints for
+      managing intake requests, vendor onboarding, approval routing, contract
+      lifecycle management, and spend visibility. The API uses API key
+      authentication via Basic Auth and supports webhook callbacks for
+      asynchronous notifications on workflow completions.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://zip.com
+    baseURL: https://api.ziphq.com
+    tags:
+      - Procurement
+      - Intake Requests
+      - Approval Workflows
+      - Vendor Onboarding
+      - Contract Management
+      - Spend Visibility
+    properties:
+      - type: Documentation
+        url: https://docs.ziphq.com
+      - type: OpenAPI
+        url: https://docs.ziphq.com
+common:
+  - type: Website
+    url: https://zip.com
+  - type: Documentation
+    url: https://docs.ziphq.com
+  - type: GitHubOrg
+    url: https://github.com/ziphq
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/theziphq/
+  - type: Blog
+    url: https://zip.com/blog
+  - type: Pricing
+    url: https://zip.com/contact
+  - type: StatusPage
+    url: https://status.zip.com
+  - type: X
+    url: https://x.com/theziphq
+  - type: Plans
+    url: plans/zip-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/zip-rate-limits.yml
+  - type: FinOps
+    url: finops/zip-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

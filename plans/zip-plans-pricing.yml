@@ -1,0 +1,50 @@
+specificationVersion: '0.1'
+id: zip-plans-pricing
+name: Zip Plans and Pricing
+description: >-
+  Zip uses custom, enterprise modular pricing rather than published self-service
+  tiers. Pricing is negotiated based on company size, procurement spend volume,
+  number of active users, and selected modules. Prospective customers engage
+  through a sales process to receive a tailored quote. Average annual contract
+  values typically range from $35,610 to $214,750 depending on configuration
+  and scale.
+url: https://zip.com/contact
+contact:
+  - FN: Zip Sales
+    url: https://zip.com/contact
+plans:
+  - name: Enterprise
+    description: >-
+      Custom enterprise pricing for organizations requiring procurement
+      orchestration across intake, approvals, vendor management, contract
+      lifecycle management, and accounts payable automation. Pricing scales
+      with active users, modules selected, and procurement spend volume.
+    url: https://zip.com/contact
+    pricing:
+      - type: Custom
+        description: >-
+          Pricing is negotiated based on company size, modules selected,
+          number of active users, contract term length, and integration
+          complexity. Average annual contract value is approximately $88,856
+          with typical ranges of $35,610 to $214,750. Multi-year commitments
+          and volume discounts are available.
+    features:
+      - Intake-to-Pay workflow orchestration
+      - AI-powered approval routing
+      - Vendor onboarding and management
+      - Contract lifecycle management
+      - Spend analytics and visibility
+      - ERP and financial system integrations
+      - REST API access
+      - Webhook event notifications
+      - Sandbox and production environments
+      - Custom integration platform (App Studio)
+      - Professional services and implementation
+      - Dedicated customer success manager
+    additionalCosts:
+      - Implementation and professional services fees
+      - Premium support packages
+      - Data migration charges
+      - Advanced analytics add-ons
+      - Third-party integration fees
+      - Annual price escalators (typically 3-7%)

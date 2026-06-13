@@ -1,0 +1,49 @@
+specificationVersion: '0.1'
+id: zip-rate-limits
+name: Zip API Rate Limits
+description: >-
+  Zip's API rate limit details are not publicly documented and are governed by
+  enterprise contract terms. The API uses separate sandbox and production
+  environments, each with its own set of API credentials. Rate limits are
+  expected to follow standard enterprise REST API patterns and are communicated
+  as part of the customer onboarding and API access provisioning process.
+url: https://docs.ziphq.com
+contact:
+  - FN: Zip Support
+    url: https://zip.com/contact
+limits:
+  - name: Production API
+    description: >-
+      Production API rate limits are determined by enterprise contract terms
+      and provisioned during customer onboarding. Contact Zip support or your
+      customer success manager for specific rate limit values applicable to
+      your account.
+    scope: Account
+    type: Enterprise Defined
+    notes: >-
+      Zip does not publish specific rate limit numbers publicly. Rate limits
+      are configured as part of enterprise contracts and may vary by account
+      tier, modules provisioned, and integration type.
+  - name: Sandbox API
+    description: >-
+      Sandbox environment is available for development and testing purposes
+      with separate API credentials from production. Sandbox rate limits may
+      differ from production limits to facilitate integration testing.
+    scope: Account
+    type: Enterprise Defined
+    notes: >-
+      The sandbox environment (separate credentials from production) is
+      provided for integration development and QA testing. Limits are
+      intended to support typical development workflows without incurring
+      production costs.
+headers:
+  - name: X-RateLimit-Limit
+    description: Maximum number of requests allowed in the current window (if exposed)
+  - name: X-RateLimit-Remaining
+    description: Number of requests remaining in the current window (if exposed)
+  - name: Retry-After
+    description: >-
+      Seconds to wait before retrying after a 429 Too Many Requests response
+status:
+  - code: 429
+    description: Too Many Requests — rate limit exceeded; retry after the indicated delay
