@@ -2,7 +2,7 @@
   "provider": "zip",
   "providerUrl": "https://zip.com",
   "blogUrl": "https://zip.com/blog",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "Introducing Zip Superagents, MCP, and AI Spend Automation",
@@ -10,7 +10,13 @@
       "author": "Rujul Zaparde and Lu Cheng",
       "date": "2026-06-02",
       "summary": "Zip launched Superagents for governed AI in enterprise procurement, MCP integration connecting Zip intelligence to AI assistants like Claude, and AI Spend Automation with forward-deployed engineers. The launch addresses the governance gap where employees paste sensitive financial data into unsanctioned consumer LLMs, creating compliance and security risks. The platform offers full audit trails and SOX-compliant workflows for public companies.",
-      "tags": ["AI", "MCP", "Superagents", "Spend Automation", "Governance"]
+      "tags": [
+        "AI",
+        "MCP",
+        "Superagents",
+        "Spend Automation",
+        "Governance"
+      ]
     },
     {
       "title": "Can you trust AI agents? Auditability and risk in P2P",
@@ -18,7 +24,13 @@
       "author": "Amanda Bellucco-Chatham",
       "date": "2026-06-12",
       "summary": "Trustworthy AI agents require transparent governance, complete audit trails, and human oversight rather than perfect accuracy alone. The article outlines five pillars: defined guardrails, full observability, human-in-the-loop oversight, policy-driven workflows, and continuous evaluation. Zip demonstrates how organizations can deploy governed AI in procurement by matching oversight intensity to decision risk.",
-      "tags": ["AI Agents", "Trust", "Auditability", "Procurement", "Risk"]
+      "tags": [
+        "AI Agents",
+        "Trust",
+        "Auditability",
+        "Procurement",
+        "Risk"
+      ]
     },
     {
       "title": "Forrester TEI study finds Zip delivered 386% ROI for enterprise procurement",
@@ -26,15 +38,25 @@
       "author": null,
       "date": null,
       "summary": "A Forrester Total Economic Impact study examining procurement leadership perspectives found that Zip delivered 386% ROI for enterprise procurement operations. The research quantifies the business value of procurement orchestration for enterprise customers.",
-      "tags": ["ROI", "Forrester", "Enterprise", "Procurement"]
+      "tags": [
+        "ROI",
+        "Forrester",
+        "Enterprise",
+        "Procurement"
+      ]
     },
     {
       "title": "Contract management is eating procurement alive",
       "url": "https://zip.com/blog/contract-management-eating-procurement-alive",
       "author": "Peder Gustafson",
       "date": "2026-04-16",
-      "summary": "Procurement teams spend excessive time on manual contract work—redlining clauses, comparing language, and consulting static playbooks—instead of pursuing strategic initiatives. AI contract orchestration can automate these tedious tasks, freeing professionals to focus on supplier development and category strategy. When manual contract work disappears, procurement gains capacity to become a true business partner.",
-      "tags": ["Contract Management", "AI", "Procurement", "Automation"]
+      "summary": "Procurement teams spend excessive time on manual contract work\u2014redlining clauses, comparing language, and consulting static playbooks\u2014instead of pursuing strategic initiatives. AI contract orchestration can automate these tedious tasks, freeing professionals to focus on supplier development and category strategy. When manual contract work disappears, procurement gains capacity to become a true business partner.",
+      "tags": [
+        "Contract Management",
+        "AI",
+        "Procurement",
+        "Automation"
+      ]
     },
     {
       "title": "What the Spring SolutionMap tells us about the future of P2P",
@@ -42,7 +64,12 @@
       "author": null,
       "date": null,
       "summary": "Analysis of the Hackett SolutionMap examines orchestration as foundational for AI-powered procure-to-pay solutions. The piece explores how procurement orchestration has become the dominant architectural pattern for modern P2P platforms.",
-      "tags": ["P2P", "Orchestration", "Hackett", "SolutionMap"]
+      "tags": [
+        "P2P",
+        "Orchestration",
+        "Hackett",
+        "SolutionMap"
+      ]
     },
     {
       "title": "What it takes to get to a continuous close with AI",
@@ -50,7 +77,12 @@
       "author": null,
       "date": null,
       "summary": "Finance strategies for achieving zero-day close performance using AI-powered automation in procurement and accounts payable workflows. The article outlines a playbook for continuous close that reduces period-end bottlenecks.",
-      "tags": ["Finance", "Continuous Close", "AI", "Accounts Payable"]
+      "tags": [
+        "Finance",
+        "Continuous Close",
+        "AI",
+        "Accounts Payable"
+      ]
     },
     {
       "title": "What is procurement orchestration? The complete guide",
@@ -58,7 +90,12 @@
       "author": "Brooks Rocco",
       "date": "2026-04-07",
       "summary": "Procurement orchestration integrates people, systems, and data into a unified workflow spanning the entire intake-to-pay lifecycle. AI-powered agents enhance this process by autonomously handling tasks like data validation and contract review, enabling organizations like Canva to reduce cycle times by over 70%. Enterprises using Zip have collectively saved $9 billion while processing $500 billion in spend.",
-      "tags": ["Procurement Orchestration", "Intake to Pay", "AI", "Workflow"]
+      "tags": [
+        "Procurement Orchestration",
+        "Intake to Pay",
+        "AI",
+        "Workflow"
+      ]
     },
     {
       "title": "Why the future of S2P runs on procurement orchestration",
@@ -66,7 +103,12 @@
       "author": null,
       "date": null,
       "summary": "Explores how orchestration expanded from intake management through the full source-to-pay lifecycle. The article argues that procurement orchestration is the foundational layer that connects sourcing, vendor management, contracts, and payments.",
-      "tags": ["Source to Pay", "Orchestration", "Procurement", "Strategy"]
+      "tags": [
+        "Source to Pay",
+        "Orchestration",
+        "Procurement",
+        "Strategy"
+      ]
     },
     {
       "title": "Zip AI Summit 2026 recap: Governed AI that gets to work",
@@ -74,7 +116,12 @@
       "author": null,
       "date": null,
       "summary": "Recap of the Zip AI Summit 2026, covering product launches, customer stories, and highlights from the Brooklyn event. The summit focused on governed AI that delivers measurable procurement outcomes.",
-      "tags": ["AI Summit", "Events", "Product Launches", "Customer Stories"]
+      "tags": [
+        "AI Summit",
+        "Events",
+        "Product Launches",
+        "Customer Stories"
+      ]
     },
     {
       "title": "Procurement's new ROI math in the age of AI Superagents",
@@ -82,15 +129,25 @@
       "author": null,
       "date": null,
       "summary": "A CPO perspective on overlooked spend categories and how AI Superagents change the ROI calculus for procurement investments. The article examines indirect spend management and the new value drivers enabled by AI automation.",
-      "tags": ["ROI", "AI Superagents", "Indirect Spend", "CPO"]
+      "tags": [
+        "ROI",
+        "AI Superagents",
+        "Indirect Spend",
+        "CPO"
+      ]
     },
     {
       "title": "What are Zip Superagents? AI in procurement, explained",
       "url": "https://zip.com/blog/what-are-zip-superagents",
       "author": null,
       "date": null,
-      "summary": "Introduction to Zip Superagents—role-based AI agents designed to handle specific procurement workflows with full governance and audit trails. The article explains how Superagents differ from generic LLM assistants by operating within defined policy guardrails.",
-      "tags": ["Superagents", "AI", "Procurement", "Product"]
+      "summary": "Introduction to Zip Superagents\u2014role-based AI agents designed to handle specific procurement workflows with full governance and audit trails. The article explains how Superagents differ from generic LLM assistants by operating within defined policy guardrails.",
+      "tags": [
+        "Superagents",
+        "AI",
+        "Procurement",
+        "Product"
+      ]
     },
     {
       "title": "Why your company LLM shouldn't be running finance and procurement",
@@ -98,15 +155,27 @@
       "author": null,
       "date": null,
       "summary": "Discusses compliance considerations in build-versus-buy decisions for AI in finance and procurement, focusing on risks of shadow AI usage. The article argues that generic LLMs lack the governance frameworks required for regulated financial processes.",
-      "tags": ["Shadow AI", "Compliance", "Finance", "LLM", "Risk"]
+      "tags": [
+        "Shadow AI",
+        "Compliance",
+        "Finance",
+        "LLM",
+        "Risk"
+      ]
     },
     {
       "title": "How Zip's AI codes invoices right the first time",
       "url": "https://zip.com/blog/ai-invoice-coding-agent",
       "author": "Shao Zhu",
       "date": "2026-05-28",
-      "summary": "Zip's AI Invoice Coding Agent automates accounts payable coding by leveraging full purchasing context—including purchase orders, vendor records, and subsidiary mappings—rather than analyzing invoices in isolation. The multi-agent architecture enables accurate first-pass results, with customers reporting 40% faster coding speed, 51% faster approvals, and 3x more invoices processed per month without additional headcount.",
-      "tags": ["Invoice Coding", "Accounts Payable", "AI", "Automation", "Multi-agent"]
+      "summary": "Zip's AI Invoice Coding Agent automates accounts payable coding by leveraging full purchasing context\u2014including purchase orders, vendor records, and subsidiary mappings\u2014rather than analyzing invoices in isolation. The multi-agent architecture enables accurate first-pass results, with customers reporting 40% faster coding speed, 51% faster approvals, and 3x more invoices processed per month without additional headcount.",
+      "tags": [
+        "Invoice Coding",
+        "Accounts Payable",
+        "AI",
+        "Automation",
+        "Multi-agent"
+      ]
     },
     {
       "title": "Forrester quantifies the business case for procurement orchestration",
@@ -114,7 +183,21 @@
       "author": null,
       "date": null,
       "summary": "Business value indicators for procurement orchestration investment analysis from a Forrester Total Economic Impact study. The research quantifies benefits including cycle time reduction, headcount savings, and risk mitigation from deploying Zip's platform.",
-      "tags": ["Forrester", "TEI", "ROI", "Procurement Orchestration", "Business Case"]
+      "tags": [
+        "Forrester",
+        "TEI",
+        "ROI",
+        "Procurement Orchestration",
+        "Business Case"
+      ]
     }
-  ]
+  ],
+  "repo": "zip",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/theziphq/",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0
 }
