@@ -38,6 +38,15 @@ tags:
   - Vendor Management
   - Contract Management
   - Enterprise Software
+  - Fintech
+tags_raw:
+  - Procurement
+  - Spend Management
+  - Intake to Pay
+  - Approval Workflows
+  - Vendor Management
+  - Contract Management
+  - Enterprise Software
   - FinTech
 apis:
   - aid: zip:zip-procurement-api
