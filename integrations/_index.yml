@@ -27,5 +27,5 @@
     - connectors/applications/zip
     vendor_link: https://zip.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
